@@ -106,11 +106,27 @@ These KPIs are designed to surface **signals**, not just historical counts.
 
 The solution includes five executive and operational views:
 
+
 1. **Executive Overview** — rolling KPIs and trends
+   ![Executive Overview Dashboard](images/01_executive-overview.png)
+   
+   
 2. **Support Operations** — SLA, backlog, throughput
+   ![Support Operations Dashboard](images/02_support-operations.png)
+   
+
 3. **Product Adoption & Usage** — engagement and feature usage
+   ![Product Adoption & Usage Dashboard](images/03_product-adoption-usage.png)
+   
+
 4. **Customer Health & Risk** — early churn signals
+   ![Customer Health & Risk Dashboard](images/04_customer-health-risk.png)
+   
+
 5. **Executive Insights & Action Framework** — diagnostic matrix for intervention
+    ![Executive Insights & Action Dashboard](images/05_executive-insights-action.png)
+
+
 
 Dashboards are intentionally **diagnostic and action-oriented**, not exploratory demos.
 
