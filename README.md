@@ -143,7 +143,14 @@ Dashboards are intentionally **diagnostic and action-oriented**, not exploratory
 * Performance profiled using **Power Query Diagnostics** and **Performance Analyzer**
 * Analytically expensive metrics (e.g., percentile-based risk) explicitly documented and justified
 
+
 This approach supports **trusted self-service analytics** at scale.
+
+### Semantic Model Overview
+
+![Star Schema Semantic Model](images/semantic-model-star-schema.png)
+
+
 
 ---
 
