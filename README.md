@@ -183,6 +183,7 @@ NimbusSoft and NimbusCore are not real companies or products.
   - `/pbix` — Power BI report files (available upon request or during interviews)
 
 
+> *Additional architecture, governance, and performance documentation is available in the `/docs` folder for reviewers who want a deeper technical dive.*
 
 
 
