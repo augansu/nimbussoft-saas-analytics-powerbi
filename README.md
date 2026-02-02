@@ -180,6 +180,8 @@ NimbusSoft and NimbusCore are not real companies or products.
 * `/docs` — supporting documentation (model, KPIs, governance)
 * `/assets` — diagrams and supporting visuals
 * `/pbix` — Power BI report files (included only if appropriate for public sharing)
+  - `/pbix` — Power BI report files (available upon request or during interviews)
+
 
 
 
