@@ -160,3 +160,30 @@ Validation confirmed:
 - Analytical logic remains reusable and security-agnostic
 
 This implementation reflects production-grade BI governance standards.
+
+---
+
+## Security Architecture Screenshots
+
+### 1) Semantic Model with Security Bridges
+
+![Security Model Relationships](../images/security/security-model-relationships.png)
+
+This view shows the star schema extended with dedicated security bridge tables filtering dimensions using single-direction relationships.
+
+---
+
+### 2) RLS Validation – CSM Role
+
+![RLS Test - CSM](../images/security/rls-test-csm.png)
+
+The CSM role restricts visibility to assigned customers while preserving full access to usage and support metrics within those accounts.
+
+---
+
+### 3) RLS Validation – SupportLead Role
+
+![RLS Test - SupportLead](../images/security/rls-test-supportlead.png)
+
+The SupportLead role restricts visibility to tickets handled by the assigned support team across multiple customers.
+
