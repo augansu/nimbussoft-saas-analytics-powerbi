@@ -141,26 +141,27 @@ These KPIs are designed to surface **signals**, not just historical counts.
 The solution includes five executive and operational views plus one governed drill-through page:
 
 ### 1. Executive Overview — rolling KPIs and trends  
-![Executive Overview Dashboard](images/01-executive-overview.png)
+<img src="images/01-executive-overview.png" width="850">
 
 ### 2. Support Operations — SLA, backlog, throughput  
-![Support Operations Dashboard](images/02-support-operations.png)
+<img src="images/02-support-operations.png" width="850">
 
 ### 3. Product Adoption & Usage — engagement and feature usage  
-![Product Adoption & Usage Dashboard](images/03-product-adoption-usage.png)
+<img src="images/03-product-adoption-usage.png" width="850">
 
 ### 4. Customer Health & Risk — early churn signals  
-![Customer Health & Risk Dashboard](images/04-customer-health-risk.png)
+<img src="images/04-customer-health-risk.png" width="850">
 
 ### 5. Executive Insights & Action Framework — diagnostic matrix for intervention  
-![Executive Insights & Action Dashboard](images/05-executive-insights-action.png)
+<img src="images/05-executive-insights-action.png" width="850">
+
 
 ### 6. Customer 360 Drill-through Page  
 A dedicated contextual investigation page combining rolling usage metrics, SLA performance, support demand composition, and ticket-level detail.
 
 This page is intentionally hidden from primary navigation and accessed only via drill-through to preserve executive clarity while enabling deep operational diagnostics.
 
-![Customer 360 Drill-through](images/06-customer-360-drillthrough.png)
+<img src="images/06-customer-360-drillthrough.png" width="850">
 
 Dashboards are intentionally **diagnostic and action-oriented**, not exploratory demos.
 
