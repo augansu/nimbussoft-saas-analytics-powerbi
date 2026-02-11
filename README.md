@@ -128,7 +128,7 @@ The solution includes five executive and operational views plus one detailed cus
 
 
 7. **Customer 360 Drill-through Page** - A dedicated Customer 360 drill-through page enables contextual investigation of customer health, combining rolling usage metrics, SLA performance, and ticket-level detail. The page is intentionally hidden from primary navigation and accessed via drill-through to preserve executive dashboard clarity while supporting deep operational analysis.
-   ![Detailed Customer Drill-through](images/06-customer-360-drillthrough)
+   ![](images/06-customer-360-drillthrough.png)
 
 
 
