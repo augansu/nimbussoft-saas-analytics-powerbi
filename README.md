@@ -4,7 +4,7 @@
 
 ---
 
-## 👀 How to Review This Project (2-Minute Lens)
+## How to Review This Project (2-Minute Lens)
 
 This repository is **not a dashboard gallery**.
 
@@ -18,7 +18,7 @@ When reviewing, focus on:
 
 ---
 
-## 1️⃣ Project Overview
+## 1 Project Overview
 
 This project simulates a **production-grade SaaS analytics platform** for a fictional mid-market B2B company, **NimbusSoft**, and its core product **NimbusCore**. It is designed using **patterns, architectures, and governance approaches I have implemented in a real SaaS organization**, adapted here using synthetic data for portfolio demonstration.
 
@@ -34,7 +34,7 @@ Although the data is synthetic, the **modeling approach, DAX patterns, governanc
 
 ---
 
-## 2️⃣ Business Context & Stakeholders
+## 2 Business Context & Stakeholders
 
 **Primary stakeholders supported by this solution:**
 
@@ -47,7 +47,7 @@ Each KPI and dashboard in this project traces back to **explicit stakeholder que
 
 ---
 
-## 3️⃣ Solution Architecture (High Level)
+## 3 Solution Architecture (High Level)
 
 ### Data Sources
 
@@ -76,7 +76,7 @@ Each KPI and dashboard in this project traces back to **explicit stakeholder que
 
 ---
 
-## 4️⃣ Key Analytics & KPIs
+## 4 Key Analytics & KPIs
 
 ### Product & Adoption
 
@@ -102,9 +102,9 @@ These KPIs are designed to surface **signals**, not just historical counts.
 
 ---
 
-## 5️⃣ Dashboards (What They Enable)
+## 5 Dashboards (What They Enable)
 
-The solution includes five executive and operational views:
+The solution includes five executive and operational views plus one detailed customer 360 drillthrough page:
 
 
 1. **Executive Overview** — rolling KPIs and trends
@@ -126,6 +126,8 @@ The solution includes five executive and operational views:
 5. **Executive Insights & Action Framework** — diagnostic matrix for intervention
     ![Executive Insights & Action Dashboard](images/05_executive-insights-action.png)
 
+6. **Customer 360 Drill-through Page** - A dedicated Customer 360 drill-through page enables contextual investigation of customer health, combining rolling usage metrics, SLA performance, and ticket-level detail. The page is intentionally hidden from primary navigation and accessed via drill-through to preserve executive dashboard clarity while supporting deep operational analysis.
+
 
 
 Dashboards are intentionally **diagnostic and action-oriented**, not exploratory demos.
@@ -134,7 +136,7 @@ Dashboards are intentionally **diagnostic and action-oriented**, not exploratory
 
 ---
 
-## 6️⃣ Performance & Governance
+## 6 Performance & Governance
 
 * Dataset implemented as a **governed semantic model**
 * Fact tables and technical keys hidden from report authors
