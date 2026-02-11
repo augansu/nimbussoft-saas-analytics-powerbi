@@ -77,9 +77,9 @@ Each KPI and dashboard in this project traces back to **explicit stakeholder que
 
 ---
 
-### Security Layer (Dynamic RLS)
+### Dynamic Row-Level Security (RLS)
 
-The semantic model includes **dynamic Row-Level Security (RLS)** implemented using governed bridge tables:
+The semantic model includes enterprise-style **dynamic RLS** using governed bridge tables. Both customer-level (CSM) and team-level (SupportLead) access patterns are implemented and validated.
 
 * `SecurityCustomerAccess` (customer-based access)
 * `SecuritySupportAccess` (support-team-based access)
@@ -96,8 +96,11 @@ This design simulates real SaaS access patterns, supporting:
 * Customer Success Manager (CSM) customer-level access  
 * Support Lead team-based access  
 
+![Security Model Overview](images/security/security-model-relationships.png)
+
 See detailed documentation in:  
 `/docs/security-model.md`
+
 
 ---
 
