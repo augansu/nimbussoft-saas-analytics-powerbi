@@ -96,7 +96,9 @@ This design simulates real SaaS access patterns, supporting:
 * Customer Success Manager (CSM) customer-level access  
 * Support Lead team-based access  
 
-![Security Model Overview](images/security/security-model-relationships.png)
+### Security Model Overview
+<img src="images/security/security-model-relationships.png" width="800">
+
 
 See detailed documentation in:  
 `/docs/security-model.md`
