@@ -126,7 +126,8 @@ The solution includes five executive and operational views plus one detailed cus
 5. **Executive Insights & Action Framework** — diagnostic matrix for intervention
     ![Executive Insights & Action Dashboard](images/05_executive-insights-action.png)
 
-6. **Customer 360 Drill-through Page** - A dedicated Customer 360 drill-through page enables contextual investigation of customer health, combining rolling usage metrics, SLA performance, and ticket-level detail. The page is intentionally hidden from primary navigation and accessed via drill-through to preserve executive dashboard clarity while supporting deep operational analysis.
+
+7. **Customer 360 Drill-through Page** - A dedicated Customer 360 drill-through page enables contextual investigation of customer health, combining rolling usage metrics, SLA performance, and ticket-level detail. The page is intentionally hidden from primary navigation and accessed via drill-through to preserve executive dashboard clarity while supporting deep operational analysis.
 
 
 
@@ -156,7 +157,7 @@ This approach supports **trusted self-service analytics** at scale.
 
 ---
 
-## 7️⃣ What This Project Demonstrates
+## 7 What This Project Demonstrates
 
 * Business-first analytics design
 * Strong data modeling fundamentals
@@ -167,7 +168,7 @@ This approach supports **trusted self-service analytics** at scale.
 
 ---
 
-## 8️⃣ Notes & Disclaimer
+## 8 Notes & Disclaimer
 
 All data used in this project is **synthetic and fictional**, created solely for portfolio demonstration purposes.
 However, the **analytics patterns, data modeling decisions, DAX techniques, governance structures, and performance considerations** reflect approaches I have **designed and implemented in real SaaS analytics environments.**
@@ -176,7 +177,7 @@ NimbusSoft and NimbusCore are not real companies or products.
 
 ---
 
-## 📁 Repository Navigation
+## 9 Repository Navigation
 
 * `/images` — dashboard screenshots (context only)
 * `/docs` — supporting documentation (model, KPIs, governance)
