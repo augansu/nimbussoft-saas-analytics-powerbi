@@ -108,26 +108,27 @@ The solution includes five executive and operational views plus one detailed cus
 
 
 1. **Executive Overview** — rolling KPIs and trends
-   ![Executive Overview Dashboard](images/01_executive-overview.png)
+   ![Executive Overview Dashboard](images/01-executive-overview.png)
    
    
 2. **Support Operations** — SLA, backlog, throughput
-   ![Support Operations Dashboard](images/02_support-operations.png)
+   ![Support Operations Dashboard](images/02-support-operations.png)
    
 
 3. **Product Adoption & Usage** — engagement and feature usage
-   ![Product Adoption & Usage Dashboard](images/03_product-adoption-usage.png)
+   ![Product Adoption & Usage Dashboard](images/03-product-adoption-usage.png)
    
 
 4. **Customer Health & Risk** — early churn signals
-   ![Customer Health & Risk Dashboard](images/04_customer-health-risk.png)
+   ![Customer Health & Risk Dashboard](images/04-customer-health-risk.png)
    
 
 5. **Executive Insights & Action Framework** — diagnostic matrix for intervention
-    ![Executive Insights & Action Dashboard](images/05_executive-insights-action.png)
+    ![Executive Insights & Action Dashboard](images/05-executive-insights-action.png)
 
 
 7. **Customer 360 Drill-through Page** - A dedicated Customer 360 drill-through page enables contextual investigation of customer health, combining rolling usage metrics, SLA performance, and ticket-level detail. The page is intentionally hidden from primary navigation and accessed via drill-through to preserve executive dashboard clarity while supporting deep operational analysis.
+   ![](images/06-customer-360-drillthrough)
 
 
 
