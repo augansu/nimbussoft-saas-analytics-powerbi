@@ -185,8 +185,7 @@ This approach supports **trusted self-service analytics** at scale while preserv
 ---
 
 ### Semantic Model Overview
-
-![Star Schema Semantic Model](images/semantic-model-star-schema.png)
+<img src="images/semantic-model-star-schema.png" width="850">
 
 ---
 
