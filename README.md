@@ -18,7 +18,7 @@ When reviewing, focus on:
 
 ---
 
-## 1 Project Overview
+## 1. Project Overview
 
 This project simulates a **production-grade SaaS analytics platform** for a fictional mid-market B2B company, **NimbusSoft**, and its core product **NimbusCore**. It is designed using **patterns, architectures, and governance approaches I have implemented in a real SaaS organization**, adapted here using synthetic data for portfolio demonstration.
 
@@ -34,7 +34,7 @@ Although the data is synthetic, the **modeling approach, DAX patterns, governanc
 
 ---
 
-## 2 Business Context & Stakeholders
+## 2. Business Context & Stakeholders
 
 **Primary stakeholders supported by this solution:**
 
@@ -47,7 +47,7 @@ Each KPI and dashboard in this project traces back to **explicit stakeholder que
 
 ---
 
-## 3 Solution Architecture (High Level)
+## 3. Solution Architecture (High Level)
 
 ### Data Sources
 
@@ -76,7 +76,7 @@ Each KPI and dashboard in this project traces back to **explicit stakeholder que
 
 ---
 
-## 4 Key Analytics & KPIs
+## 4. Key Analytics & KPIs
 
 ### Product & Adoption
 
@@ -137,7 +137,7 @@ Dashboards are intentionally **diagnostic and action-oriented**, not exploratory
 
 ---
 
-## 6 Performance & Governance
+## 6. Performance & Governance
 
 * Dataset implemented as a **governed semantic model**
 * Fact tables and technical keys hidden from report authors
@@ -157,7 +157,7 @@ This approach supports **trusted self-service analytics** at scale.
 
 ---
 
-## 7 What This Project Demonstrates
+## 7. What This Project Demonstrates
 
 * Business-first analytics design
 * Strong data modeling fundamentals
@@ -168,7 +168,7 @@ This approach supports **trusted self-service analytics** at scale.
 
 ---
 
-## 8 Notes & Disclaimer
+## 8. Notes & Disclaimer
 
 All data used in this project is **synthetic and fictional**, created solely for portfolio demonstration purposes.
 However, the **analytics patterns, data modeling decisions, DAX techniques, governance structures, and performance considerations** reflect approaches I have **designed and implemented in real SaaS analytics environments.**
@@ -177,7 +177,7 @@ NimbusSoft and NimbusCore are not real companies or products.
 
 ---
 
-## 9 Repository Navigation
+## 9. Repository Navigation
 
 * `/images` — dashboard screenshots (context only)
 * `/docs` — supporting documentation (model, KPIs, governance)
