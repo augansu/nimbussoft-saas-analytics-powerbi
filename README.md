@@ -99,10 +99,8 @@ This design simulates real SaaS access patterns, supporting:
 ### Security Model Overview
 <img src="images/security/security-model-relationships.png" width="800">
 
-
 See detailed documentation in:  
 `/docs/security-model.md`
-
 
 ---
 
@@ -155,8 +153,8 @@ The solution includes five executive and operational views plus one governed dri
 ### 5. Executive Insights & Action Framework — diagnostic matrix for intervention  
 <img src="images/05-executive-insights-action.png" width="850">
 
-
 ### 6. Customer 360 Drill-through Page  
+
 A dedicated contextual investigation page combining rolling usage metrics, SLA performance, support demand composition, and ticket-level detail.
 
 This page is intentionally hidden from primary navigation and accessed only via drill-through to preserve executive clarity while enabling deep operational diagnostics.
@@ -182,14 +180,34 @@ Dashboards are intentionally **diagnostic and action-oriented**, not exploratory
 
 This approach supports **trusted self-service analytics** at scale while preserving enterprise-grade governance and access control.
 
----
-
 ### Semantic Model Overview
 <img src="images/semantic-model-star-schema.png" width="850">
 
 ---
 
-## 7. What This Project Demonstrates
+## 7. Enterprise Power BI Service Deployment
+
+This solution is deployed to **Power BI Service** using a production-style Dev → Test → Prod architecture aligned with enterprise governance standards.
+
+### Deployment Pipeline Overview
+
+<img src="images/service/01-deployment-pipeline.png" width="900">
+
+### Deployment Highlights
+
+* Dev → Test → Prod promotion using Deployment Pipelines  
+* Single governed semantic model across environments  
+* On-Premises Data Gateway for secure PostgreSQL and file refresh  
+* Dynamic RLS enforced via Microsoft Entra ID security groups  
+* App-based audience segmentation (Exec, CSM, Support, Product)  
+* Production validation using dedicated service accounts  
+
+Full Service deployment documentation:  
+👉 `/docs/powerbi-service-deployment.md`
+
+---
+
+## 8. What This Project Demonstrates
 
 * Business-first analytics design  
 * Strong data modeling fundamentals  
@@ -198,24 +216,26 @@ This approach supports **trusted self-service analytics** at scale while preserv
 * Governance and metric discipline  
 * Executive-focused storytelling  
 * Realistic SaaS analytics patterns  
+* Enterprise Power BI Service deployment with Dev/Test/Prod separation  
 
 ---
 
-## 8. Notes & Disclaimer
+## 9. Notes & Disclaimer
 
 All data used in this project is **synthetic and fictional**, created solely for portfolio demonstration purposes.
 
-However, the **analytics patterns, data modeling decisions, DAX techniques, governance structures, security architecture, and performance considerations** reflect approaches designed and implemented in real SaaS analytics environments.
+However, the **analytics patterns, data modeling decisions, DAX techniques, governance structures, security architecture, deployment strategy, and performance considerations** reflect approaches designed and implemented in real SaaS analytics environments.
 
 NimbusSoft and NimbusCore are not real companies or products.
 
 ---
 
-## 9. Repository Navigation
+## 10. Repository Navigation
 
-* `/images` — dashboard screenshots (context only)
-* `/docs` — architecture, governance, security, and KPI documentation
-* `/assets` — diagrams and supporting visuals
+* `/images` — dashboard screenshots  
+* `/images/service` — Power BI Service deployment visuals  
+* `/docs` — architecture, governance, security, and KPI documentation  
+* `/assets` — diagrams and supporting visuals  
 * `/pbix` — Power BI report files (available upon request or during interviews)
 
 ---
@@ -228,8 +248,9 @@ For those evaluating the architecture and modeling depth:
 2. `/docs/semantic-model.md`
 3. `/docs/kpi-dictionary.md`
 4. `/docs/security-model.md`
-5. `/docs/governance.md`
-6. `/docs/performance-notes.md`
-7. `/docs/drillthrough-customer360.md`
+5. `/docs/powerbi-service-deployment.md`
+6. `/docs/governance.md`
+7. `/docs/performance-notes.md`
+8. `/docs/drillthrough-customer360.md`
 
-This order mirrors the logical progression of the solution from business framing through modeling, analytics, security, and performance.
+This order mirrors the logical progression of the solution from business framing through modeling, analytics, deployment, security, and performance.
